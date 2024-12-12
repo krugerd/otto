@@ -1,16 +1,16 @@
 # otto
 script for automating bulk user identity actions
 
-#USAGE:
+# USAGE:
 otto.ps1 -do [options]
 
-#OPTIONS:
+# OPTIONS:
         signins
         users
         licenses
         roles
 
-REMARKS:
+# REMARKS:
 
 This script automates actions typically done manually through the Entra ID portal GUI and is provided AS-IS.  
 Please review code before running in any environment to understand what it is doing as there is no 'undo'.
@@ -30,9 +30,10 @@ otto -do roles:
 - add Active, add Eligible, or List all roles assigned to users
 - roles are selected from a GUI inputbox
 
-#Input file format:
+# Input file format:
 
 Input file needs to be a text file only containing the UPN of the users to be modified.  For example:
-aaron.jimmyjoe@163dev.onmicrosoft.com
-aaron.jimmylegs@163dev.onmicrosoft.com
-aaron.jimmyjohn@163dev.onmicrosoft.com
+
+aaron.jimmyjoe@123dev.onmicrosoft.com
+aaron.jimmylegs@123dev.onmicrosoft.com
+aaron.jimmyjohn@123dev.onmicrosoft.com
