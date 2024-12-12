@@ -30,11 +30,6 @@ otto -do roles:
 - add Active, add Eligible, or List all roles assigned to users
 - roles are selected from a GUI inputbox
 
-Input file format needs to be a text file only containing 1 UPN per line of the users to be modified.  For example:
-
-user1
-user2
-user3
-
+Input file format needs to be a text file only containing 1 UPN per line of the users to be modified.
 
 
