@@ -33,9 +33,8 @@ otto -do roles:
 Input file format needs to be a text file only containing 1 UPN per line of the users to be modified.  For example:
 
 user1
-
 user2
-
 user3
+
 
 
